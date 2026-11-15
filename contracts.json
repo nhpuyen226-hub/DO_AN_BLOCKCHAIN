@@ -1,0 +1,860 @@
+{
+  "0x00512d0000e0c24900008f3fd3e12600b5bd00b0": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": true,
+    "is_delegate": true
+  },
+  "0x05a3e41624c9a63aa960aed3097fd4f8aaf264b7": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x0b536973e9d66833e8d5b734e8aa9be041107da8": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x0d4dc3832a1fac1d89b5b301dbca74aee1de8c29": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x0f94c89d2ed8889da82ab78ff90daf2ce87800e8": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x12ae754f3c76dc57cc81a61f58a04a58e5811f7b": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x164a1204ad18294961a7033dac9d9d4305743b90": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x175b0ed6d5c9172ad6a163e792640c29c360872d": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x1b3b9419c11b0ca4cd677b434687b5ad18cd84fc": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x1bb11c5830a109c5ca379874f0347f9e0d79e1c8": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x1d3e9e84f1062eb8ce1022456affb650143144ed": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x1f07336d35c9a70ed086f6aa3c4c0bd1266e6f63": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": true,
+    "is_delegate": true
+  },
+  "0x206b5230e8375e5ef15128e36f4ac83f1cb3d649": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x207f1a79c9c07376c605ac27973670a8d108ab57": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x20b6456ebbdc5cb2c34eac5dacdfdd2ec3cf61cb": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x25329fdc72b753d9a113f144368099f47e23fed6": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x3181f61a7fa086f73efd3a04cf577b71c8150fcd": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x343c45b808e4c265709cfcd9d1137e386c72ca99": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x3480299e7f9ef1bd3510c5d515f7cd9500d7e5b8": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x3682f3d2b303794ed2d4c927f598c7fe446f1c23": {
+    "hooks": [
+      "receiveFlashLoan",
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x3cc69bb0248ab2cd637b7e1627b04012c672a69e": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x3f5f0cd382ce833d1ec6b7418eddf97e82c8728a": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x446916c9799c42af51e14676eca781308a9ad614": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x46d82ad5120e7ff320e20a9385fa8d3069ffe70b": {
+    "hooks": [
+      "receiveFlashLoan",
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x47d1d8c51b73056b51932d059d83c0507eae7f52": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x4ba02d90f16432a87e1aa4459aa9906c2711b9cd": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x4dd0c8b1a2512ece2388d7ba7416d7176e88bf55": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x535e0508836b5b10de496fbe770382a3277f8640": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x5644bf78ce50b07957e04426ca4853ff208743d2": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x5a7fc11397e9a8ad41bf10bf13f22b0a63f96f6d": {
+    "hooks": [
+      "onERC1155BatchReceived",
+      "onERC1155Received",
+      "onERC721Received",
+      "receive"
+    ],
+    "external_calls": [
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": true
+  },
+  "0x63c0c19a282a1b52b07dd5a65b58948a07dae32b": {
+    "hooks": [
+      "onERC1155BatchReceived",
+      "onERC1155Received",
+      "onERC721Received",
+      "receive"
+    ],
+    "external_calls": [
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": true
+  },
+  "0x643aa6e33fead0576419c629e3cfd555994babf5": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x67cf8a77b498617897398ccc49a26945ab41f010": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x687059ed8b29183235bf57e769af35a876fc7d70": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x705003c79d709d843092f7bd7381d4204ba14dae": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x72dac5f8bff995cac1b74772297c84d08fab62ae": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x78bea645779ed54cb13b1611c6db5802c1753d83": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x7a03be7da043fd60c1271d44ac84d841c2b5899b": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x7c9eb429377d783246d8c5cba74929669165120f": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x80296ff8d1ed46f8e3c7992664d13b833504c2bb": {
+    "hooks": [
+      "onERC1155BatchReceived",
+      "onERC1155Received",
+      "onERC721Received",
+      "receive"
+    ],
+    "external_calls": [
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": true
+  },
+  "0x885614ea7b000da5f1e357849568a2f73ed47c44": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x8e62c61bd96754043d07decf8aa13c9faa41aeae": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x8f941f8f65448aa7e577b5957f971681c0648730": {
+    "hooks": [
+      "executeOperation"
+    ],
+    "external_calls": [
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x950d1e6de522b5ebec14493a15ef0e32f72f0127": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x955ece96b910256228c07332d2d2814e4c16061b": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x97b1ef7198753019efe571dae26d84faa6bef63a": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0x9ece3ba943feb373770e10622936fa3185c73154": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xa1c1e3a2babacca3ee237f580344fac643292792": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xa315fa90d7ab35a0581b924ccae84cfd26d55288": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xa45ed42f9878cae0527b4636c2995ddfc41813fb": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xa4fa162259372be8329fa71ea609e48eb0d8ccef": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xa68622fd068b8dd0cc108ba92bc661df26c12c86": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xa8383121202008ae63e8b47f8f6c2c8a51b56b52": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xa83ef42b21412da662a707d1a762d85f5fcbb55e": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": true
+  },
+  "0xaa582440b02165ec081fb74974e27cdef0c9ec95": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xade0aa27e02da00dcc978d5051e8148ed775425a": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xafbb5cbe423a58eeb2c12fe38a68d62732fd7c97": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xafe4d337167742bc1f8a77230bd81af64593f317": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xb86e7542d6e5e30856cdd5b3d56099fc2b485091": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xc1b4e1cc53ebd3b7dd192bd869cc2b5a62503d4c": {
+    "hooks": [
+      "executeOperation"
+    ],
+    "external_calls": [
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xc893e5264cfd44dfb9d536b44a58cba676b7a088": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xca4a86b49dd4f6855187244cbf064d5c140c4870": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xcda3577ca7ef65f6b7201e9bd80375f5628d15f7": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": true
+  },
+  "0xce225aee9cd3cc7c8931351baeb315129216d4df": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xcee8809d758d61e2906e5c4e5a9d42d449e7a8af": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xd1247c2e2663e5e31cd21b8fbcdb56f3febc3e05": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xd9fe77d28bccd8c69f3b177722131fc771b2f4b6": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xdf4bc73e98ead2ada961cd88050f4fcbeb398c56": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xe2797d74cb2a79b125ef07f93209fb8ee928c79f": {
+    "hooks": [],
+    "external_calls": [
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xe27f89671f339c6f1161417e46a60c8762ec8dd8": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xe3d99e7782df62cc207f896a0ce27fad1a58234e": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xead37d9a4bd22e2d5159e09ebbbf9ae2e997f9ba": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xeb9eaebba66d16b9c82cc021a3d7929338ce7bd5": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xef1fee1175f9158a2442075d6fa3b1df548bc255": {
+    "hooks": [
+      "executeOperation"
+    ],
+    "external_calls": [
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xf1cfb3e304d2e80b9ff8721b32842674849f79ac": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xf7381c07ca2e519cb71bba1c9c7b8d00610704b9": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xf971d16613e339cafcaab8ea74150ac11f7c85cf": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xfeaba36389966beff4d42795d42a9e689f3af952": {
+    "hooks": [],
+    "external_calls": [
+      "transfer",
+      "transferFrom"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  },
+  "0xff8dc421dbb596b1678b5eb6251b714626b8fc90": {
+    "hooks": [
+      "receive"
+    ],
+    "external_calls": [
+      "transfer",
+      "transferFrom",
+      "call"
+    ],
+    "labeled": true,
+    "is_malicious": false,
+    "is_delegate": false
+  }
+}
