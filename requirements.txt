@@ -1,0 +1,8 @@
+pandas
+requests
+scikit-learn
+eth-utils
+eth-keys
+eth-hash[pycryptodome]
+rlp
+openpyxl
