@@ -1,0 +1,186 @@
+[
+  {
+    "delegate": "0xcda3577ca7ef65f6b7201e9bd80375f5628d15f7",
+    "score": 41.5,
+    "tier": "MEDIUM",
+    "labeled": true,
+    "is_malicious": false,
+    "n_attach": 27,
+    "n_victims": 27,
+    "n_sponsors": 1,
+    "third_party_ratio": 1.0,
+    "sponsor_conc": 0.963,
+    "burst": 1.0,
+    "creator_ctrl": false,
+    "components": {
+      "inbound_hook": 6,
+      "generic_call": 4,
+      "sponsor_conc": 13.48,
+      "sponsored": 6.0,
+      "burst": 6.0,
+      "rule_eoa": 6
+    },
+    "explain": [
+      "+6.0 có hook nhận tài sản",
+      "+4.0 chỉ có CALL chung chung",
+      "+13.5 27 nạn nhân nhưng chỉ 1 sponsor",
+      "+6.0 100% authorization do bên thứ ba gửi",
+      "+6.0 100% attach dồn trong 20 block",
+      "+6.0 bị Quy tắc 1 (EOA-targeted) báo"
+    ]
+  },
+  {
+    "delegate": "0x00512d0000e0c24900008f3fd3e12600b5bd00b0",
+    "score": 28,
+    "tier": "MEDIUM",
+    "labeled": true,
+    "is_malicious": true,
+    "n_attach": 1,
+    "n_victims": 1,
+    "n_sponsors": 1,
+    "third_party_ratio": 1.0,
+    "sponsor_conc": 0.0,
+    "burst": 0.0,
+    "creator_ctrl": false,
+    "components": {
+      "inbound_hook": 6,
+      "token_out": 16,
+      "rule_eoa": 6
+    },
+    "explain": [
+      "+6.0 có hook nhận tài sản",
+      "+16.0 gọi chuyển token tường minh (transfer, transferFrom)",
+      "+6.0 bị Quy tắc 1 (EOA-targeted) báo"
+    ]
+  },
+  {
+    "delegate": "0x1f07336d35c9a70ed086f6aa3c4c0bd1266e6f63",
+    "score": 28,
+    "tier": "MEDIUM",
+    "labeled": true,
+    "is_malicious": true,
+    "n_attach": 2,
+    "n_victims": 2,
+    "n_sponsors": 1,
+    "third_party_ratio": 1.0,
+    "sponsor_conc": 0.0,
+    "burst": 0.0,
+    "creator_ctrl": false,
+    "components": {
+      "inbound_hook": 6,
+      "token_out": 16,
+      "rule_eoa": 6
+    },
+    "explain": [
+      "+6.0 có hook nhận tài sản",
+      "+16.0 gọi chuyển token tường minh (transfer)",
+      "+6.0 bị Quy tắc 1 (EOA-targeted) báo"
+    ]
+  },
+  {
+    "delegate": "0x80296ff8d1ed46f8e3c7992664d13b833504c2bb",
+    "score": 20.6,
+    "tier": "LOW",
+    "labeled": true,
+    "is_malicious": false,
+    "n_attach": 52,
+    "n_victims": 51,
+    "n_sponsors": 51,
+    "third_party_ratio": 0.0,
+    "sponsor_conc": 0.0,
+    "burst": 0.096,
+    "creator_ctrl": false,
+    "components": {
+      "inbound_hook": 6,
+      "token_callback": 4,
+      "generic_call": 4,
+      "burst": 0.58,
+      "rule_eoa": 6
+    },
+    "explain": [
+      "+6.0 có hook nhận tài sản",
+      "+4.0 nhận NFT/token qua callback",
+      "+4.0 chỉ có CALL chung chung",
+      "+0.6 10% attach dồn trong 20 block",
+      "+6.0 bị Quy tắc 1 (EOA-targeted) báo"
+    ]
+  },
+  {
+    "delegate": "0x63c0c19a282a1b52b07dd5a65b58948a07dae32b",
+    "score": 20.5,
+    "tier": "LOW",
+    "labeled": true,
+    "is_malicious": false,
+    "n_attach": 90,
+    "n_victims": 89,
+    "n_sponsors": 89,
+    "third_party_ratio": 0.0,
+    "sponsor_conc": 0.0,
+    "burst": 0.089,
+    "creator_ctrl": false,
+    "components": {
+      "inbound_hook": 6,
+      "token_callback": 4,
+      "generic_call": 4,
+      "burst": 0.53,
+      "rule_eoa": 6
+    },
+    "explain": [
+      "+6.0 có hook nhận tài sản",
+      "+4.0 nhận NFT/token qua callback",
+      "+4.0 chỉ có CALL chung chung",
+      "+0.5 9% attach dồn trong 20 block",
+      "+6.0 bị Quy tắc 1 (EOA-targeted) báo"
+    ]
+  },
+  {
+    "delegate": "0x5a7fc11397e9a8ad41bf10bf13f22b0a63f96f6d",
+    "score": 20,
+    "tier": "LOW",
+    "labeled": true,
+    "is_malicious": false,
+    "n_attach": 2,
+    "n_victims": 2,
+    "n_sponsors": 2,
+    "third_party_ratio": 1.0,
+    "sponsor_conc": 0.0,
+    "burst": 0.0,
+    "creator_ctrl": false,
+    "components": {
+      "inbound_hook": 6,
+      "token_callback": 4,
+      "generic_call": 4,
+      "rule_eoa": 6
+    },
+    "explain": [
+      "+6.0 có hook nhận tài sản",
+      "+4.0 nhận NFT/token qua callback",
+      "+4.0 chỉ có CALL chung chung",
+      "+6.0 bị Quy tắc 1 (EOA-targeted) báo"
+    ]
+  },
+  {
+    "delegate": "0xa83ef42b21412da662a707d1a762d85f5fcbb55e",
+    "score": 16,
+    "tier": "LOW",
+    "labeled": true,
+    "is_malicious": false,
+    "n_attach": 1,
+    "n_victims": 1,
+    "n_sponsors": 1,
+    "third_party_ratio": 1.0,
+    "sponsor_conc": 0.0,
+    "burst": 0.0,
+    "creator_ctrl": false,
+    "components": {
+      "inbound_hook": 6,
+      "generic_call": 4,
+      "rule_eoa": 6
+    },
+    "explain": [
+      "+6.0 có hook nhận tài sản",
+      "+4.0 chỉ có CALL chung chung",
+      "+6.0 bị Quy tắc 1 (EOA-targeted) báo"
+    ]
+  }
+]
