@@ -1,0 +1,8 @@
+delegate,score,tier,labeled,is_malicious,n_attach,n_victims,n_sponsors,third_party_ratio,sponsor_conc,burst,creator_ctrl
+0xcda3577ca7ef65f6b7201e9bd80375f5628d15f7,41.5,MEDIUM,True,False,27,27,1,1.0,0.963,1.0,False
+0x00512d0000e0c24900008f3fd3e12600b5bd00b0,28.0,MEDIUM,True,True,1,1,1,1.0,0.0,0.0,False
+0x1f07336d35c9a70ed086f6aa3c4c0bd1266e6f63,28.0,MEDIUM,True,True,2,2,1,1.0,0.0,0.0,False
+0x80296ff8d1ed46f8e3c7992664d13b833504c2bb,20.6,LOW,True,False,52,51,51,0.0,0.0,0.096,False
+0x63c0c19a282a1b52b07dd5a65b58948a07dae32b,20.5,LOW,True,False,90,89,89,0.0,0.0,0.089,False
+0x5a7fc11397e9a8ad41bf10bf13f22b0a63f96f6d,20.0,LOW,True,False,2,2,2,1.0,0.0,0.0,False
+0xa83ef42b21412da662a707d1a762d85f5fcbb55e,16.0,LOW,True,False,1,1,1,1.0,0.0,0.0,False
